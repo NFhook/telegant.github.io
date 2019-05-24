@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://telegant.top/"/>
+  <link href="http://telegant.top/"/>
   <updated>2019-05-24T16:15:10.562Z</updated>
-  <id>https://telegant.top/</id>
+  <id>http://telegant.top/</id>
   
   <author>
     <name>telegant</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://telegant.top/2019/05/23/hello-world/"/>
-    <id>https://telegant.top/2019/05/23/hello-world/</id>
+    <link href="http://telegant.top/2019/05/23/hello-world/"/>
+    <id>http://telegant.top/2019/05/23/hello-world/</id>
     <published>2019-05-23T12:55:39.640Z</published>
     <updated>2019-05-24T16:15:10.562Z</updated>
     
