@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://telegant.top/"/>
-  <updated>2019-05-26T13:18:27.603Z</updated>
+  <updated>2019-05-26T14:09:54.159Z</updated>
   <id>http://telegant.top/</id>
   
   <author>
@@ -15,6 +15,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker</title>
+    <link href="http://telegant.top/2019/05/26/docker/"/>
+    <id>http://telegant.top/2019/05/26/docker/</id>
+    <published>2019-05-26T14:09:12.000Z</published>
+    <updated>2019-05-26T14:09:54.159Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="docker" scheme="http://telegant.top/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo+Next博客搭建总结</title>

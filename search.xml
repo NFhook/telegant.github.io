@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[docker]]></title>
+    <url>%2F2019%2F05%2F26%2Fdocker%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo+Next博客搭建总结]]></title>
     <url>%2F2019%2F05%2F25%2FHexo%2BNext%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%80%BB%E7%BB%93%2F</url>
     <content type="text"><![CDATA[准备工作安装Hexo之前确保已经安装好了Node.js和git,验证方式如下:12$ node -v$ git --version 在github建立一个仓库名为xxx.github.io的库,xxx为github username 安装Hexo1$ npm install hexo-cli -g 安装hexo1$ hexo init blog 初始化博客blog,初始化完成后在blog目录下有个_config.yml, 这个是站点配置文件1$ hexo new "test" 新建文章test1$ hexo g 生成网页1$ hexo s 启动服务预览,浏览器url输入localhost:4000 就可以看到1$ hexo d 部署网页,部署之前要在站点配置文件配置Deployment1234deploy: type: git repository: https://github.com/xxx/xxx.github.io.git branch: master 其中xxx为github username Next主题下载next主题到themes目录下,themes下有个landscape,这个是默认主题1$ git clone https://github.com/theme-next/hexo-theme-next.git themes/next 在themes/next下也有一个_config.yml,这个是主题配置文件,注意区别于站点配置文件,两个配置文件同名但不同位置,修改站点配置文件中theme的地方,改成next1theme: next 在主题配置文件下修改next主题的样式设置scheme,去掉前边的#注释,改成自己喜欢的样式12345scheme:#scheme: Muse#scheme: Mist#scheme: Pisces#scheme: Gemini 评论功能采用第三方 来比力City版,注册账号在代码托管中获取data-uid,写入主题配置文件livere_uid这样每个页面都有评论功能了, 如果不想让某一页面有评论功能, 加如下内容到对应md文件1comments: false 搜索功能采用第三方 Algolia, 注册获取applicationID,apiKey,indexName写入站点配置文件,启用主题配置algolia_search12$ npm install hexo-algolia --save$ hexo algolia 如果在执行 hexo algolia 报错, 判断环境变量 HEXO_ALGOLIA_INDEXING_KEY 为apiKey,ACL授权是否正确 IM聊天功能采用第三方 DaoVoice, 注册账号后获取app_id,主题配置文件启用daovoice并写入daovoice_app_id 统计功能采用第三方 LeanCloud, 注册后获取appid和appkey,主题配置文件启用leancloud_visitors并写入app_id和app_key 未完待续……]]></content>
