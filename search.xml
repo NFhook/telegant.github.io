@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git]]></title>
+    <url>%2F2019%2F05%2F26%2Fgit%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[docker]]></title>
     <url>%2F2019%2F05%2F26%2Fdocker%2F</url>
     <content type="text"></content>
+      <categories>
+        <category>docker</category>
+      </categories>
       <tags>
         <tag>docker</tag>
       </tags>
