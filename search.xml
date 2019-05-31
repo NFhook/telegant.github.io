@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[docker]]></title>
     <url>%2F2019%2F05%2F26%2Fdocker%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[installkernel version &gt; 3.10 1$ uname -r update 1$ sudo yum update remove old docker version 1$ sudo yum remove docker docker-common docker-selinux docker-engine install depends 1$ sudo yum install -y yum-utils device-mapper-persistent-data lvm2 set yum repo 1$ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo check repository all docker version 1$ yum list docker-ce --showduplicates | sort -r install docker 1234$ sudo yum makecache fast$ sudo yum install docker-ce or$ sudo yum install &lt;FQPN&gt; check version 1$ docker version]]></content>
       <categories>
         <category>docker</category>
       </categories>
