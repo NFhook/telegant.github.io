@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F05%2F31%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[title: Hello Worldcopyright: truecategories: 瞎折腾top: 10tags: Hexo Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[git-cheat-sheet]]></title>
     <url>%2F2019%2F05%2F31%2Fgit-cheat-sheet%2F</url>
     <content type="text"><![CDATA[INSTALLMac OS X 1$ brew install git Linux 1234Debian Linux:$ sudo apt-get install gitRedhat Linux:$ yum install git Windows ​ Download CONFIG12$ git config --global user.name "Your Name"$ git config --global user.email "email@example.com" CREATEClone an existing repository 1$ git clone ssh://user@domain.com/repo.git Create a new local repository 1$ git init LOCAL CHANGESChanged files in your working directory 1$ git status Changes to tracked files 1$ git diff Add all current changes to the next commit 1$ git add . Add some changes in to the next commit 1$ git add -p &lt;file&gt; Commit all local changes in tracked files 1$ git commit -a Commit previously staged changes 1$ git commit Change the last commitDon‘t amend published commits! 1$ git commit --amend COMMIT HISTORYShow all commits, starting with newest 1$ git log Show changes over time for a specific file 1$ git log -p &lt;file&gt; Who changed what and when in 1$ git blam &lt;file&gt; BRANCHES &amp; TAGSList all existing branches 1$ git branch -av Switch HEAD branch 1$ git checkout &lt;branch&gt; Create a new branch based on your current HEAD 1$ git branch &lt;new-branch&gt; Create a new tracking branch based on a remote branch 1$ git checkout --track &lt;remote/branch&gt; Delete a local branch 1$ git branch -d &lt;branch&gt; Mark the current commit with a tag 1$ git tag &lt;tag-name&gt; UPDATE &amp; PUBLISHList all currently configured remotes 1$ git remote -v Show information about a remote 1$ git remote show &lt;remote&gt; Add new remote repository, named 1$ git remote add &lt;shortname&gt; &lt;url&gt; Download all changes from , but don‘t integrate into HEAD 1$ git fetch &lt;remote&gt; Download changes and directly merge/integrate into HEAD 1$ git pull &lt;remote&gt; &lt;branch&gt; Publish local changes on a remote 1$ git push &lt;remote&gt; &lt;branch&gt; Delete a branch on the remote 1$ git branch -dr &lt;remote/branch&gt; Publish your tags 1$ git push --tags MERGE &amp; REBASEMerge into your current HEAD 1$ git merge &lt;branch&gt; Rebase your current HEAD onto Don‘t rebase published commits! 1$ git rebase &lt;branch&gt; Abort a rebase 1$ git rebase --abort Continue a rebase after resolving conflicts 1$ git rebase --continue Use your configured merge tool to solve conflicts 1$ git mergetool Use your editor to manually solve conflicts and (after resolving) mark file as resolved 12$ git add &lt;resolved-file&gt;$ git rm &lt;resolved-file&gt; UNDODiscard all local changes in your working directory 1$ git reset --hard HEAD Discard local changes in a specific file 1$ git checkout HEAD &lt;file&gt; Revert a commit (by producing a new commit with contrary changes) 1$ git revert &lt;commit&gt; Reset your HEAD pointer to a previous commit …and discard all changes since then 1$ git reset --hard &lt;commit&gt; …and preserve all changes as unstaged changes 1$ git reset &lt;commit&gt; …and preserve uncommitted local changes 1$ git reset --keep &lt;commit&gt;]]></content>
@@ -32,10 +37,5 @@
       <tags>
         <tag>Hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>%2F2019%2F05%2F25%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[title: Hello Worldcopyright: truecategories: 瞎折腾top: 10tags: [Hexo] Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
